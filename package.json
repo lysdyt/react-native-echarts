@@ -1,6 +1,6 @@
 {
   "name": "native-echarts",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "echarts for react-native",
   "main": "src/index.js",
   "directories": {
@@ -13,12 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/somonus/react-native-echarts.git"
   },
-  "keywords": [
-    "react-native",
-    "echarts",
-    "chart",
-    "charts"
-  ],
+  "keywords": ["react-native", "echarts", "chart", "charts"],
   "author": "somonus",
   "license": "MIT",
   "bugs": {
