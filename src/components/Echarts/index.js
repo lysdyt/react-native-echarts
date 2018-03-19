@@ -38,7 +38,8 @@ export default class App extends Component {
             scrollEnabled={false}
             injectedJavaScript={renderChart(this.props, true)}
             style={{
-              height: this.props.height || 400
+              height: this.props.height || 400,
+              backgroundColor: this.props.backgroundColor || 'rgba(0, 0, 0, 0)'
             }}
             source={{ uri: 'file:///android_asset/echarts/tpl.html' }}
           />
@@ -53,7 +54,8 @@ export default class App extends Component {
             scalesPageToFit={false}
             injectedJavaScript={renderChart(this.props, true)}
             style={{
-              height: this.props.height || 400
+              height: this.props.height || 400,
+              backgroundColor: this.props.backgroundColor || 'rgba(0, 0, 0, 0)'
             }}
             source={require('./tpl.html')}
           />
